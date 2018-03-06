@@ -612,6 +612,8 @@ $(document).ready(function() {
                 // Create a new loading spinner while hiding the submit button.
                 loadingSpinner = jQuery('<div />').addClass('form-loading').insertAfter($(thisForm).find('input[type="submit"]'));
                 $(thisForm).find('input[type="submit"]').hide();
+				
+				return false;
 
                 jQuery.ajax({
                     type: "POST",
