@@ -2,17 +2,6 @@
 <!doctype html>
 <html lang="en">
     <head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115491614-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-115491614-1');
-</script>
-
         <meta charset="utf-8">
         <title>Get A New Word Sent To Your Email Every Day - Logophile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +13,7 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://emailoctopus.com/bundles/emailoctopuslist/css/formEmbed.css?1519921847">
     </head>
     <body>
 				
@@ -41,6 +31,10 @@
 		                    <h1 class="mb8 bold">LOGOPHILE</h1>
 		                    <p class="lead mb48">
 		                        Build your vocabulary. Check your inbox for a new word every morning.</p>
+
+								<h2 class="email-octopus-heading"></h2>
+								<p class="email-octopus-success-message"></p>
+								<p class="email-octopus-error-message"></p>
 		                    <form class="form-newsletter thirds email-octopus-form" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly." method="post" action="https://emailoctopus.com/lists/1000e25e-1d58-11e8-a3c9-06b79b628af2/members/embedded/1.1/add">
 		                        <input type="text" id="field_1" name="embedded_form_subscription[field_1]" class="validate-required signup-name-field" placeholder="Your Name">
 								
@@ -76,6 +70,10 @@
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.1/formEmbed.js?1519921847"></script>
+ 
 		<script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.1/formEmbed.js?1519921847"></script>
     </body>
 </html>
